@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Doe - Executive in Sports Marketing and Management</title>
+<style>
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f0f0;
+color: #333;
+line-height: 1.6;
+}
+header {
+background-color: #002366; /* Royal Dark Blue */
+color: white;
+padding: 20px 0;
+text-align: center;
+}
+header h1 {
+margin: 0;
+font-size: 2.5em;
+}
+header p {
+margin: 5px 0 0;
+font-size: 1.2em;
+}
+nav {
+display: flex;
+justify-content: center;
+background-color: #333;
+padding: 10px 0;
+}
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+nav a:hover {
+text-decoration: underline;
+}
+section {
+padding: 60px 20px;
+max-width: 800px;
+margin: 0 auto;
+background-color: white;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+color: #002366; /* Royal Dark Blue */
+margin-top: 0;
+}
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+.btn {
+display: inline-block;
+padding: 10px 20px;
+margin: 20px 0;
+background-color: #cc0000; /* Red */
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+.btn:hover {
+background-color: #990000;
+}
+.highlight {
+color: #cc0000; /* Red */
+}
+form {
+display: flex;
+flex-direction: column;
+}
+form label {
+margin: 10px 0 5px;
+}
+form input, form textarea {
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+form input[type="submit"] {
+background-color: #cc0000; /* Red */
+color: white;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+form input[type="submit"]:hover {
+background-color: #990000;
+}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1>John Doe</h1>
+<p>Executive in Sports Marketing and Management</p>
+</header>
+<nav>
+<a href="#about">About Me</a>
+<a href="#services">Services</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</nav>
+<section id="about">
+<h2>About Me</h2>
+<p>
+With over <span class="highlight">25 years</span> of experience in the sports marketing and management industry, I have honed my skills in consultation, advisory, technology, strategy, leadership, investment, and road mapping. My passion for sports and commitment to excellence has driven me to the top of my field.
+</p>
+</section>
+<section id="services">
+<h2>Services</h2>
+<p>I offer a range of services to help you achieve your goals:</p>
+<ul>
+<li>Consultation</li>
+<li>Advisory</li>
+<li>Technology Integration</li>
+<li>Strategy Development</li>
+<li>Leadership Coaching</li>
+<li>Investment Guidance</li>
+<li>Road Mapping</li>
+</ul>
+<a href="#contact" class="btn">Get in Touch</a>
+</section>
+<section id="experience">
+<h2>Experience</h2>
+<p>
+Throughout my career, I have worked with top-tier organizations and sports teams, providing strategic direction and innovative solutions. My extensive network and industry knowledge allow me to deliver unparalleled insights and results.
+</p>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<p>If you would like to discuss how I can help your organization, please reach out:</p>
+<form action="mailto:john.doe@example.com" method="post" enctype="text/plain">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+<input type="submit" value="Send">
+</form>
+</section>
+<footer>
+<p>&copy; 2024 John Doe. All rights reserved.</p>
+</footer>
+</body>
+</html>
